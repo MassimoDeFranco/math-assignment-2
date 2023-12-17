@@ -4,7 +4,7 @@ public class CircleMovement : MonoBehaviour
 {
     public float speed = 5f;
     private Vector2 velocity;
-    private float mass = 30f; // Mass of the square in kg
+    private float mass = 15f; // Mass of the square in kg
 
     void Update()
     {

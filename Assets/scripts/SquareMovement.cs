@@ -11,6 +11,7 @@ public class SquareMovement : MonoBehaviour
     void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
 
         // Check if the object is on the ground
         if (transform.position.y <= 0f)
